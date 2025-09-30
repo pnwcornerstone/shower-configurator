@@ -1,41 +1,18 @@
 body {
   font-family: Arial, sans-serif;
-  margin: 20px;
-  background: #f9f9f9;
-}
-
-h1 {
   text-align: center;
-  margin-bottom: 20px;
+  background-color: #f5f5f5;
 }
 
-.configurator {
-  display: flex;
-  justify-content: space-around;
-  align-items: flex-start;
+#shower-container {
+  margin-top: 20px;
 }
 
-.options {
-  width: 30%;
-  padding: 10px;
-  background: #fff;
-  border-radius: 8px;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-}
-
-.options label {
-  display: block;
-  margin-top: 10px;
-}
-
-select {
+#shower-image {
+  max-width: 600px;
   width: 100%;
-  padding: 8px;
-  margin-top: 5px;
-}
-
-.preview img {
-  max-width: 500px;
-  border: 2px solid #ccc;
+  height: auto;
+  border: 2px solid #ddd;
   border-radius: 8px;
 }
+
