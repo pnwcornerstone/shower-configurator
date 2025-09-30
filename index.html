@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shower Configurator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Shower Configurator</h1>
+
+  <div class="configurator">
+    <div class="options">
+      <label>Tile Offset:</label>
+      <select id="offset">
+        <option value="1-3">1/3 Offset</option>
+        <option value="1-2">1/2 Offset</option>
+      </select>
+
+      <label>Layout:</label>
+      <select id="layout">
+        <option value="horizontal">Horizontal</option>
+        <option value="vertical">Vertical</option>
+      </select>
+
+      <label>Insert:</label>
+      <select id="insert">
+        <option value="none">None</option>
+        <option value="niche">Niche</option>
+        <option value="shelves">Shelves</option>
+        <option value="both">Both</option>
+      </select>
+    </div>
+
+    <div class="preview">
+      <img id="shower-image" src="images/base.png" alt="Shower Preview">
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
